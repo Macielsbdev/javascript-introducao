@@ -1,0 +1,18 @@
+let pontoCardeal = "norte";
+
+switch(pontoCardeal){
+    case "norte":
+        console.log("Pra cima");
+        break;
+        case "sul":
+            console.log("Pra baixo");
+            break;
+            case "leste":
+                console.log("Pra direita");
+                break;
+                case "oeste":
+                console.log("Pra esquerda");
+                break;
+                default:
+                    console.log("Informe uma opção válida!");
+}
